@@ -69,23 +69,23 @@ Se subió el flujo completo del ejercicio, como si se estuviera trabajando en AW
 
 1. **terraform init**  
    Muestra que Terraform fue correctamente inicializado y se descargó el proveedor `aws`.
-<img width="952" height="274" alt="01_terraform_init" src="https://github.com/user-attachments/assets/638c1e0c-ece1-45c7-8362-69c9e8fcdc87" />
+<img width="952" height="274" alt="01_terraform_init" src="https://github.com/user-attachments/assets/9a11183c-06fd-4f11-b57c-d683f5d3bd98" />
 
 2. **terraform plan**  
    Terraform identificó correctamente los 7 recursos a crear. Coincide con el objetivo del ejercicio.
-<img width="1342" height="695" alt="02_terraform_plan" src="https://github.com/user-attachments/assets/75af48fc-8298-4bb9-bf53-160b947f37be" />
+<img width="1342" height="695" alt="02_terraform_plan" src="https://github.com/user-attachments/assets/b9fb2e55-91c2-4fbb-b772-e0f959eff5ad" />
 
 3. **terraform apply**  
    Intento de creación de recursos. Falla por credenciales inválidas, como se esperaba.
-<img width="1344" height="700" alt="03_terraform_apply" src="https://github.com/user-attachments/assets/64e83d3e-b67c-4e9e-a46d-5ce4ca620388" />
+<img width="1344" height="700" alt="03_terraform_apply" src="https://github.com/user-attachments/assets/6ad39722-4212-4476-8454-15262a98a224" />
 
 4. **terraform output**  
    Muestra que no hay salidas válidas, ya que los recursos no se crearon.
-<img width="1338" height="264" alt="04_terraform_output" src="https://github.com/user-attachments/assets/e74e61e0-4815-4c5c-b594-e75741acb74f" />
+<img width="1338" height="264" alt="04_terraform_output" src="https://github.com/user-attachments/assets/c2e57274-c115-4d49-bada-6cfdc88ca714" />
 
 5. **LocalStack en Ubuntu**  
    Captura del contenedor ejecutándose y escuchando en el puerto 4566, simulando los servicios de AWS.
-<img width="958" height="208" alt="05_LocalStack" src="https://github.com/user-attachments/assets/8f123452-6c36-4280-bf5c-c0168f001e53" />
+<img width="958" height="208" alt="05_LocalStack" src="https://github.com/user-attachments/assets/116b9b6f-0b26-49e3-9e3c-31cb88a3cb53" />
 
 ---
 
